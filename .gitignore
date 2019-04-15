@@ -1,3 +1,5 @@
-*.o
-geometry
 
+*.txt
+bin/*.exe
+*.swp
+build/*.o
