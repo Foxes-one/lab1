@@ -74,8 +74,7 @@ build/prov_data.o: src/prov_data.c src/geometry.h src/figure.h
 
 build/print_posle_prov.o: src/print_posle_prov.c src/geometry.h src/figure.h
 	$(OBJ)
+
 clean:
-	rm -f build/*.o
-	rm -f bin/*.exe
-	rm -R build
-	rm -R bin
+	rm -r build
+	rm -r bin
