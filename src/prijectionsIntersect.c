@@ -1,6 +1,7 @@
 include "geometry.h"
 
-extern double getMin(double x1, double x2);
+        extern double
+        getMin(double x1, double x2);
 
 extern double getMax(double x1, double x2);
 
