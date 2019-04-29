@@ -37,7 +37,7 @@ build/proverka_perecech_otrezkov.o: src/perecechotrezkov.c src/geometry.h
 	$(OBJ)
 
 build/input_data.o: src/input_data.c src/geometry.h
-	$(OBJ)	
+	$(OBJ)
 
 build/areCollinear.o: src/areCollinear.c src/geometry.h
 	$(OBJ)
@@ -78,4 +78,4 @@ clean:
 	rm -f build/*.o
 	rm -f bin/*.exe
 	rm -R build
-rm -R bin
+	rm -R bin
