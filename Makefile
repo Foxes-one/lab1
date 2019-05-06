@@ -18,7 +18,7 @@ folder4:
 	mkdir -p build/test
 
 
-bin/geometry.exe: build/src/main.o build/src/circle_intersects.o build/src/printCircle.o build/src/printPoligon.o build/src/printTriangle.o build/src/proverka.o build/src/proverka_perecech_otrezkov.o build/src/input_data.o build/src/areCollinear.o build/src/getMin.o build/src/getMax.o build/src/prijectionsIntersect.o build/src/getSlope.o build/src/getYIntercept.o build/src/getCos.o build/src/testing.o build/src/perpendicular.o build/src/distan.o build/src/prov_data.o build/src/print_posle_prov.o
+bin/geometry.exe: build/src/main.o build/src/circle_intersects.o build/src/printCircle.o build/src/printPoligon.o build/src/printTriangle.o build/src/proverka.o build/src/proverka_perecech_otrezkov.o build/src/input-data.o build/src/areCollinear.o build/src/getMin.o build/src/getMax.o build/src/prijectionsIntersect.o build/src/getSlope.o build/src/getYIntercept.o build/src/getCos.o build/src/testing.o build/src/perpendicular.o build/src/distan.o build/src/prov_data.o build/src/print_posle_prov.o
 
 	g++ $(CFLAGS) $^ -o $@
 
