@@ -25,7 +25,7 @@ bin/geometry.exe: build/src/main.o build/src/circle_intersects.o build/src/print
 build/src/main.o: src/main.c src/geometry.h src/figure.h
 	$(OBJ)
 
-build/src/circle_intersects.o: src/circle_intersects.c src/geometry.h
+build/src/circle_intersects.o: src/circle-intersects.c src/geometry.h
 	$(OBJ)
 
 build/src/printCircle.o: src/printCircle.c src/geometry.h
