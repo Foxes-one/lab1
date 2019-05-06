@@ -1,5 +1,5 @@
-
 *.txt
 bin/*.exe
 *.swp
-build/*.o
+build/src/*.o
+build/test/*.o
